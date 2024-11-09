@@ -16,15 +16,17 @@ Screenek
 - Lista
 - Detail - Flutter
 - Kedvencek lista - Opciónális
+
+
 UX/UI
 Szabadon választott, OS specifikus elemek használata - natívon XML vagy Jetpack
 compose.
 - Lista screen
-1. Pokémon neve jelenjen meg, elemei kattinthatóak.
+  - Pokémon neve jelenjen meg, elemei kattinthatóak.
 - Detail screen - Flutter:
-1. Pokémon képe
-2. Pokemon leírása, főbb infók róla
-3. Kedvencelés lehetősége, csak lokálban tároljuk - opcionális
+  - Pokémon képe
+  - Pokemon leírása, főbb infók róla
+  - Kedvencelés lehetősége, csak lokálban tároljuk - opcionális
 - Kedvencek Lista - opcionális
 1. Pokémon neve és képe jelenjen meg, elemei kattinthatóak.
 
