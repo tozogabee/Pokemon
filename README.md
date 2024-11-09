@@ -12,36 +12,36 @@ detail adatokat és jelenítsük meg egy egyszerű UI nézeten.
 Architektúra
 MVVM architekturális sablon használata.
 Screenek
-● Launch/Splash
-● Lista
-● Detail - Flutter
-● Kedvencek lista - Opciónális
+- Launch/Splash
+- Lista
+- Detail - Flutter
+- Kedvencek lista - Opciónális
 UX/UI
 Szabadon választott, OS specifikus elemek használata - natívon XML vagy Jetpack
 compose.
 Lista screen
-● Pokémon neve jelenjen meg, elemei kattinthatóak.
+- Pokémon neve jelenjen meg, elemei kattinthatóak.
 Detail screen - Flutter:
-● Pokémon képe
-● Pokemon leírása, főbb infók róla
-● Kedvencelés lehetősége, csak lokálban tároljuk - opcionális
+- Pokémon képe
+- Pokemon leírása, főbb infók róla
+- Kedvencelés lehetősége, csak lokálban tároljuk - opcionális
 Kedvencek Lista - opcionális
-● Pokémon neve és képe jelenjen meg, elemei kattinthatóak.
+- Pokémon neve és képe jelenjen meg, elemei kattinthatóak.
 
 ## API
-Lista - GET
+- Lista - GET
 https://pokeapi.co/api/v2/pokemon/
-Detail - GET
+- Detail - GET
 https://pokeapi.co/api/v2/pokemon/{pokemonName} pl ->
 https://pokeapi.co/api/v2/pokemon/ivysaur
-Image - GET
+- Image - GET
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png
 pl: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
 
 ## Egyéb kritériumok
-● Különböző sémák létrehozása, legyen egy dev és egy prod, a launch ikon legyen
+- Különböző sémák létrehozása, legyen egy dev és egy prod, a launch ikon legyen
 különböző a kettő esetében - szabadon választott launch app ikon
-● Reachability
-● Cachelés használata
-● Loader használata javasolt,
-● Offline, net nélkül tartalom elérése - természetesen ha volt már előtte betöltve adat
+- Reachability
+- Cachelés használata
+- Loader használata javasolt,
+- Offline, net nélkül tartalom elérése - természetesen ha volt már előtte betöltve adat
