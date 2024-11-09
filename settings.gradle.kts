@@ -20,5 +20,11 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Pokemon"
-include(":app")
+include(":flutter_detail_module")
+
+// Specify the project directory for the Flutter module
+project(":flutter_detail_module").projectDir = File(rootDir, "flutter_detail_module")
+
+
+
  

@@ -49,8 +49,13 @@ android {
 dependencies {
     implementation(libs.androidx.navigation.compose) // check latest version
     implementation(libs.retrofit)
+    implementation(project(":flutter_detail_module"))
     //noinspection UseTomlInstead
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation(libs.ui)              // Core UI library
+    implementation("androidx.compose.material3:material3:1.0.1") // Material 3 library
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.0")
+    implementation(libs.androidx.navigation.compose.v260) // use the latest version
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
